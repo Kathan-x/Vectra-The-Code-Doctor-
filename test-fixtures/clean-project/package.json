@@ -1,0 +1,15 @@
+{
+  "name": "clean-service",
+  "version": "1.0.0",
+  "description": "Healthy clean Node.js service for VECTRA validation",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}

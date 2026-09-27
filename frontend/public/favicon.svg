@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+  <defs>
+    <linearGradient id="v-crest" x1="6" y1="4" x2="42" y2="44" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#3b82f6" />
+      <stop offset="50%" stop-color="#2563eb" />
+      <stop offset="100%" stop-color="#1d4ed8" />
+    </linearGradient>
+    <linearGradient id="v-inner" x1="14" y1="12" x2="34" y2="38" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#93c5fd" />
+      <stop offset="50%" stop-color="#60a5fa" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+    <linearGradient id="v-facet" x1="24" y1="6" x2="40" y2="24" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#60a5fa" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#2563eb" stop-opacity="0.05" />
+    </linearGradient>
+  </defs>
+
+  <rect width="48" height="48" rx="10" fill="#0f172a" />
+  
+  <polygon points="24,6 40,15 40,33 24,42 8,33 8,15" fill="url(#v-facet)" stroke="url(#v-crest)" stroke-width="2" stroke-linejoin="round" />
+  <circle cx="24" cy="6" r="1.5" fill="#60a5fa" />
+  <circle cx="40" cy="15" r="1.5" fill="#60a5fa" />
+  <circle cx="40" cy="33" r="1.5" fill="#60a5fa" />
+  <circle cx="24" cy="42" r="1.5" fill="#60a5fa" />
+  <circle cx="8" cy="33" r="1.5" fill="#60a5fa" />
+  <circle cx="8" cy="15" r="1.5" fill="#60a5fa" />
+
+  <path d="M16 17 L24 32 L32 17" stroke="url(#v-inner)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="24" cy="22" r="1.8" fill="#ffffff" />
+</svg>

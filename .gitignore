@@ -1,0 +1,51 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build / generated
+dist/
+**/dist/
+build/
+**/build/
+.next/
+out/
+coverage/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Local VECTRA runtime data
+data/
+uploads/
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# MongoDB
+.mongo-data/
+
+# Temporary
+.cache/
+tmp/
+temp/
